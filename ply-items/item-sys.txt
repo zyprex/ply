@@ -1,0 +1,76 @@
+  :: https://www.tenforums.com/tutorials/3109-shell-commands-list-windows-10-a.html
+  :: system shell commands start with >
+>my computer
+  exe:explorer
+  arg:shell:MyComputerFolder
+>user home
+  exe:explorer
+  arg:shell:Profile
+>control panel
+  exe:control
+>desktop
+  exe:explorer
+  arg:shell:desktop
+>download
+  exe:explorer
+  arg:shell:downloads
+>desktop icon
+  exe:rundll32.exe
+  arg:shell32.dll,Control_RunDLL desk.cpl,,0
+>program files x64
+  exe:explorer
+  arg:shell:ProgramFilesX64
+>program files x86
+  exe:explorer
+  arg:shell:ProgramFilesX86
+>recycle bin
+  exe:explorer
+  arg:::{645ff040-5081-101b-9f08-00aa002f954e}
+>fonts
+  exe:explorer
+  arg:shell:fonts
+>appdata
+  exe:explorer
+  arg:shell:appdata
+>startup
+  exe:explorer
+  arg:shell:startup
+>ease access center
+  exe:control
+  arg:access.cpl
+>app manager
+  exe:control
+  arg:appwiz.cpl
+>device manager
+  exe:devmgmt.msc
+>task manager
+  exe:taskmgr
+>task scheduler
+  exe:taskschd.msc
+>computer manager
+  exe:compmgmt.msc
+>services
+  exe:services.msc
+>startmenu
+  exe:explorer
+  arg:shell:Start Menu
+>msconfig
+  exe:msconfig
+>dxdiag
+  exe:dxdiag
+>send to
+  exe:explorer
+  arg:shell:SendTo
+>file options
+  exe:control
+  arg:folders
+>internet properties
+  exe:control
+  arg:inetcpl.cpl
+>system properties advanced
+  exe:SystemPropertiesAdvanced.exe
+>personalization
+  exe:explorer
+  arg:shell:::{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}
+>registry editor
+  exe:regedit.exe
